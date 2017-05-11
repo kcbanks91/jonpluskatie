@@ -170,7 +170,7 @@ body #canvas {
 }
 
 #canvas {
-    background-image:url("../images/mymoon3.jpg");
+    background-image:url("../images/MyMoon.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -292,6 +292,17 @@ p {
     font-style: normal;
     margin: 0 0 1em;
     text-align:left;
+}
+
+.images {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center-div
+{
+     margin: 0 auto;
+     width: 100%; 
 }
 
 h1,

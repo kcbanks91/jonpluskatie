@@ -7,68 +7,21 @@
   
   <meta name="viewport" content="width=device-width,initial-scale=1">
   
-  <!-- This is Squarespace. --><!-- chloe-marten-fl0q -->
 <base href="">
 <meta charset="utf-8" />
 <title>Jonathan Louie and Katharine Banks Wedding</title>
+<link rel="stylesheet" type="text/css" href="css/weddingstylesheet.css"/>    
     
-<!--[if !IE]> --><link rel="stylesheet" type="text/css" href="css/weddingstylesheet.css"/><!-- <![endif]-->
-<!-- End of Squarespace Headers -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    
 </head>
 
-<body class="layout-style-left page-borders-thin underline-body-links site-title has-primary-nav">
+<body class="layout-style-left site-title">
 
   <div id="canvas" style="background-color:#ffffff">
 
 <div class="white">  
       
-  <div id="mobileNav" class="">
-    <div id="mobileNavWrapper" class="wrapper">
-      <nav class="main-nav mobileNav">
-        <ul>
-          
-
-            
-              <li class="index-collection active-link">
-                
-                  <a href="/work/">Work</a>
-                
-              </li>
-            
-
-          
-
-            
-              <li class="page-collection">
-                
-                  <a href="/about/">About</a>
-                
-                
-              </li>
-            
-
-          
-
-            
-              <li class="page-collection">
-                
-                  <a href="/contact/">Contact</a>
-                
-                
-              </li>
-            
-
-          
-        </ul>
-      </nav>
-    </div>
-  </div>
-  <div id="mobileMenuLink"><a>Menu</a></div>
-
-
-
-
-
     <header id="header">
       <div id="logo" data-content-field="site-title">
         
@@ -78,89 +31,183 @@
         
       </div>
 
-      <div id="topNav" data-content-field="navigation">
-<nav class="main-nav"><ul>
-  
-
-      <li class="index-collection">
+<div id="topNav" data-content-field="navigation">
+<nav class="main-nav">
+    
+    <ul>
+      <li class="page-collection">
             <a href="newwedding.html">The Wedding</a>
       </li>
 
-  
-
-      <li class="page-collection active-link">
+      <li class="active-link">
             <a href="ourstory.html">Our Story</a>
       </li>
 
-           <li class="page-collection">
-            <a href="/contact/">Travel</a>
+      <li class="page-collection">
+            <a href="travel.html">Travel</a>
+      </li>
+        
+                  <li class="page-collection">
+            <a href="rsvp.html">RSVP</a>
       </li>
     
-               <li class="page-collection">
-            <a href="registry.html">Registry</a>
+      <li class="page-collection">
+            <a href="/contact/">Registry</a>
       </li>
-
-  
-</ul>
+    </ul>
 </nav>
 </div>
 
     </header>
 
- <!-- hiding for now   <div class="page-divider"></div>
-
-    <section id="page" role="main" data-content-field="main-content">
-      <!-- CATEGORY NAV -->
-      
-      <div id="projectPages" data-collection-id="">
-  
-</div>
-
-
-
-<div id="projectThumbs" >
-  <div class="wrapper">
+         
     
- <br><br>
-          
-  
-          
-<h1>HOW IT BEGAN</h1>
+ <br>          
+<h1>IT ALL STARTED WITH WINTER STORM JONAS...</h1>
 <div class="page-divider2"></div>
-      <br>
-<div class="story"><p>Blah blah blah story here</p></div>
-      
-      <br><br><br><br>
-      
-      <h1>THE PROPOSAL</h1>
-<div class="page-divider2"></div>
-      <br><br><br><br>
+      <br><br>
+            <img class="images" src="images/jonas%20headline@3x.png" style="display: block; width:85%;"> 
+    <br><br><br><br>
     
+            <script src="js/jssor.slider-23.1.5.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        jssor_1_slider_init = function() {
 
-      
+            var jssor_1_SlideshowTransitions = [
+              {$Duration:1200,$Opacity:2}
+            ];
+
+            var jssor_1_options = {
+              $AutoPlay: 1,
+              $SlideshowOptions: {
+                $Class: $JssorSlideshowRunner$,
+                $Transitions: jssor_1_SlideshowTransitions,
+                $TransitionsOrder: 1
+              },
+              $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$
+              },
+              $BulletNavigatorOptions: {
+                $Class: $JssorBulletNavigator$
+              }
+            };
+
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+            /*responsive code begin*/
+            /*remove responsive code if you don't want the slider scales while window resizing*/
+            function ScaleSlider() {
+                var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
+                if (refSize) {
+                    refSize = Math.min(refSize, 600);
+                    jssor_1_slider.$ScaleWidth(refSize);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+            ScaleSlider();
+            $Jssor$.$AddEvent(window, "load", ScaleSlider);
+            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+            /*responsive code end*/
+        };
+    </script>
+    <style>
+        /* jssor slider bullet navigator skin 05 css */
+        /*
+        .jssorb05 div           (normal)
+        .jssorb05 div:hover     (normal mouseover)
+        .jssorb05 .av           (active)
+        .jssorb05 .av:hover     (active mouseover)
+        .jssorb05 .dn           (mousedown)
+        */
+        .jssorb05 {
+            position: absolute;
+        }
+        .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+            position: absolute;
+            /* size of bullet elment */
+            width: 16px;
+            height: 16px;
+            background: url('images/b05.png') no-repeat;
+            overflow: hidden;
+            cursor: pointer;
+        }
+        .jssorb05 div { background-position: -7px -7px; }
+        .jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
+        .jssorb05 .av { background-position: -67px -7px; }
+        .jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
+
+        /* jssor slider arrow navigator skin 12 css */
+        /*
+        .jssora12l                  (normal)
+        .jssora12r                  (normal)
+        .jssora12l:hover            (normal mouseover)
+        .jssora12r:hover            (normal mouseover)
+        .jssora12l.jssora12ldn      (mousedown)
+        .jssora12r.jssora12rdn      (mousedown)
+        */
+        .jssora12l, .jssora12r {
+            display: block;
+            position: absolute;
+            /* size of arrow element */
+            width: 30px;
+            height: 46px;
+            cursor: pointer;
+            background: url('images/a12.png') no-repeat;
+            overflow: hidden;
+        }
+        .jssora12l { background-position: -16px -37px; }
+        .jssora12r { background-position: -75px -37px; }
+        .jssora12l:hover { background-position: -136px -37px; }
+        .jssora12r:hover { background-position: -195px -37px; }
+        .jssora12l.jssora12ldn { background-position: -256px -37px; }
+        .jssora12r.jssora12rdn { background-position: -315px -37px; }
+    </style>
     
-
-  </div>
-</div>
-    </section>
-
+    
+    
+    <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:462px;height:400px;overflow:hidden;visibility:hidden;">
+        <!-- Loading Screen -->
+        <div data-u="loading" style="position:absolute;top:0px;left:0px;background-color:rgba(0,0,0,0.7);">
+            <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+            <div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+        </div>
+        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:462px;height:500px;">
+            <div>
+                <img data-u="image" src="images/1@3x.png" />
+            </div>
+            <div>
+                <img data-u="image" src="images/2@3x.png" />
+            </div>
+            <div>
+                <img data-u="image" src="images/3@3x.png" />
+            </div>
+            <div>
+                <img data-u="image" src="images/4@3x.png" />
+            </div>
+            <div>
+                <img data-u="image" src="images/5@3x.png" />
+            </div>
+            <div>
+                <img data-u="image" src="images/6@3x.png" />
+            </div>
+            <div>
+                <img data-u="image" src="images/7@3x.png" />
+            </div>
+        </div>
+        <!-- Arrow Navigator -->
+        <span data-u="arrowleft" class="jssora12l" style="top:0px;left:0px;width:30px;height:46px;" data-autocenter="2"></span>
+        <span data-u="arrowright" class="jssora12r" style="top:0px;right:0px;width:30px;height:46px;" data-autocenter="2"></span>
+    </div>
+    <script type="text/javascript">jssor_1_slider_init();</script>
+    
 
     <div class="page-divider"></div>
       </div>
 
   </div>
-
-  <div></div>
-
-  <script src="https://static1.squarespace.com/static/ta/4fd1028ee4b02be53c65dfb3/1311/scripts/core-0.2.0.min.js" type="text/javascript"></script>
-  <script type="text/javascript" src="https://static1.squarespace.com/static/ta/4fd1028ee4b02be53c65dfb3/1311/scripts/combo/?dynamic-data.js&site.js"></script>
-  
-
-  <script type="text/javascript" data-sqs-type="imageloader-bootstraper">(function() {if(window.ImageLoader) { window.ImageLoader.bootstrap(); }})();</script>
-<script>Squarespace.afterBodyLoad(Y);</script>
-
-
-
 
 </body>
 
